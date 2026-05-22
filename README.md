@@ -24,7 +24,7 @@ https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescri
 
 ### Task 1 — download_cms_data
 Automatically fetches latest Medicare Part D data from CMS public API:
-- Fetches data in batches of 5,000 rows
+- Fetches data in batches of 6,000 rows
 - Retries failed requests up to 3 times with exponential backoff
 - Writes directly to disk to avoid memory issues
 - Stops automatically when all rows are downloaded
