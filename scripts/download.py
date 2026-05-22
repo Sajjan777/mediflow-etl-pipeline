@@ -7,7 +7,7 @@ import pandas as pd
 
 # CMS Medicare Part D Prescribers dataset
 # https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers
-API_ENDPOINT = "https://data.cms.gov/data-api/v1/dataset/9767cb68-8ea9-4f0b-8179-9431abc89f11/data"
+API_ENDPOINT = "https://data.cms.gov/data-api/v1/dataset/14d8e8a9-7e9b-4370-a044-bf97c46b4b44/data"
 BATCH_SIZE = 10000  # CMS API hard cap is 5,000 rows per request
 
 MAX_RETRIES = 3

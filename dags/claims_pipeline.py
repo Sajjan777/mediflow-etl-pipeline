@@ -29,7 +29,7 @@ with DAG(
     dag_id='healthcare_claims_etl',
     default_args=default_args,
     description='ETL pipeline for CMS Medicare claims data',
-    schedule_interval='@weekly',
+    schedule_interval='@monthly',
     start_date=datetime(2024, 1, 1),
     catchup=False,
     tags=['healthcare', 'etl', 'cms'],
